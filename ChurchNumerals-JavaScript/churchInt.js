@@ -23,16 +23,16 @@ const FIBO = FIBO_ (FIBO_)
 
 
 //outputs: 
-console.log(n1(x=>x+1) (0))								//1
-console.log(INC (n1) (x=>x+1) (0))						//2
-console.log(PLUS (n2) (n1) (x=>x+1) (0))				//3
+console.log(n1(x=>x+1) (0))                           //1
+console.log(INC (n1) (x=>x+1) (0))						        //2
+console.log(PLUS (n2) (n1) (x=>x+1) (0))			        //3
 console.log(MULT (n2) (PLUS (n1) (n2)) (x=>x+1) (0))	//6
-console.log(DECR (n2) (x=>x+1) (0))						//1
-console.log(SUB (n1) (n2) (x=>x+1) (0))					//1
-console.log((ISZERO (n1)) ("true") ("false"))			//false
-console.log((ISZERO (n0)) ("true") ("false"))			//true
-console.log((LEQ (n0) (n1)) ("true") ("false"))			//true
-console.log((LEQ (n1) (n1)) ("true") ("false"))			//true
-console.log((LEQ (n2) (n1)) ("true") ("false"))			//false
+console.log(DECR (n2) (x=>x+1) (0))						        //1
+console.log(SUB (n1) (n2) (x=>x+1) (0))					      //1
+console.log((ISZERO (n1)) ("true") ("false"))			    //false
+console.log((ISZERO (n0)) ("true") ("false"))			    //true
+console.log((LEQ (n0) (n1)) ("true") ("false"))			  //true
+console.log((LEQ (n1) (n1)) ("true") ("false"))			  //true
+console.log((LEQ (n2) (n1)) ("true") ("false"))			  //false
 console.log((FACT (n2)) (x=>x+1) (0))
 console.log((FIBO (n0)) (x=>x+1) (0))
