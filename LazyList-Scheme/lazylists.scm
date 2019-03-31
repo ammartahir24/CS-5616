@@ -26,4 +26,4 @@
     (if (pair-sum-util (cdr list) (car list) num ) #t
       (pair-lazy-sum (cdr list) num))))
 
-;function defines two arguments, the call to helper function pair-sum-util checks for the first two numbers currently at start of list, if helper returns true function returns #t from here. Otherwise recursive call is made.
+;function defines two arguments, the call to helper function pair-sum-util checks for the first two numbers currently at start of list, if helper returns true function returns #t from here. Otherwise recursive call is made. 
