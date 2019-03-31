@@ -1,0 +1,2 @@
+Church Encoded Numerals are way of representing integers in Lambda Calculus which is a framework to study computations based only on functions. Lambda Calculus is Turing complete and everything a Turing Machine is capable of doing can be represented using only functions. 
+This is my implementation of Church Integers along with basic utility functions such as Addition, Subtraction, Multiplication, If condition and finally using these utility functions I have implemented Factorial and Fibonnaci numbers.
